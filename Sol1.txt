@@ -1,0 +1,15 @@
+Problem: Bat programmer in the Arkham City help Bat Man capture Asylum escapees
+class Sol{
+public static void main(String [] args){
+Scanner sc=new Scanner(System.in);
+int a=sc.nextInt();
+int b=sc.nextInt();
+int res=findNumOfStepsRequired(3, 10);
+public static int findNumOfStepsRequired(int a , int b){
+if(a==0)
+return 0;
+else{
+return(a*b);
+}
+}
+}
